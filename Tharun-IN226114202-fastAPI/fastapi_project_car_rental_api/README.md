@@ -4,7 +4,11 @@ Project Overview
 This project is a Car Rental Service Backend API built using FastAPI.
 It allows users to browse available cars, rent vehicles, manage bookings, and perform advanced operations like search, sorting, and pagination.
 
-The application demonstrates real-world backend concepts including REST APIs, data validation, CRUD operations, and multi-step workflows.
+The application demonstrates real-world backend concepts including 
+REST APIs,
+data validation,
+CRUD operations,
+multi-step workflows.
 
 🚀 Features
 
@@ -44,23 +48,31 @@ Python
 FastAPI
 Uvicorn
 Pydantic
+
 📂 Project Structure
+
 fastapi_project_car_rental_api/
 │
 ├── main.py
 ├── requirements.txt
 ├── README.md
 └── screenshots/
+
 ▶️ How to Run the Project
+
 1. Clone the repository
 git clone https://github.com/your-username/fastapi_project_car_rental_api.git
 cd fastapi_project_car_rental_api
-2. Install dependencies
+
+3. Install dependencies
 pip install -r requirements.txt
-3. Run the server
+
+5. Run the server
 python -m uvicorn main:app --reload
-4. Open in browser
+
+7. Open in browser
 http://127.0.0.1:8000/docs
+
 🧪 API Testing
 
 All APIs are tested using Swagger UI.
@@ -79,11 +91,13 @@ View available cars
 Add car to cart
 Checkout and create booking
 View rental history
+
 🎯 Learning Outcomes
 Built RESTful APIs using FastAPI
 Implemented request validation with Pydantic
 Designed CRUD operations
 Created multi-step workflows
+
 Implemented search, sorting, and pagination
 🔗 GitHub Repository
 
