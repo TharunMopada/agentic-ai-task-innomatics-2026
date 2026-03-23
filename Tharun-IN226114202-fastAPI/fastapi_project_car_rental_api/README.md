@@ -7,31 +7,38 @@ It allows users to browse available cars, rent vehicles, manage bookings, and pe
 The application demonstrates real-world backend concepts including REST APIs, data validation, CRUD operations, and multi-step workflows.
 
 🚀 Features
+
 ✅ Core APIs
 Home route
 Get all cars
 Get car by ID
 Cars summary
+
 ✅ Data Validation (Pydantic)
 Input validation using Pydantic models
 Field constraints and error handling
+
 ✅ CRUD Operations
 Add new car
 Update car details
 Delete car
+
 ✅ Helper Functions
 Find car by ID
 Calculate rental cost
 Filter logic
+
 ✅ Multi-Step Workflow
 Add to cart
 View cart
 Checkout (create rental orders)
+
 ✅ Advanced APIs
 Search cars by keyword
 Sort cars (price, type, etc.)
 Pagination
 Combined browsing (search + sort + pagination)
+
 🛠️ Tech Stack
 Python
 FastAPI
